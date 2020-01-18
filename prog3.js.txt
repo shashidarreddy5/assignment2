@@ -1,0 +1,9 @@
+//Count odd numbers below n
+//https://www.codewars.com/users/shashidarreddy5/completed_solutions
+
+function oddCount(n){
+  console.log(n)
+  var result = 0
+  result = Math.floor(n/2)
+  return result
+} 
