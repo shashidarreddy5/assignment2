@@ -1,0 +1,4 @@
+//Squash the bugs
+//https://www.codewars.com/users/anishpanchadar/completed_solutions//
+
+findLongest = s => s.split(" ").reduce((m, e) => m = m < e.length ? e.length : m, 0);
